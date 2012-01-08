@@ -1,0 +1,19 @@
+   _     _           _ _     _           
+  (_)___| |__  _   _(_) | __| | ___ _ __ 
+  | / __| '_ \| | | | | |/ _` |/ _ \ '__|
+  | \__ \ |_) | |_| | | | (_| |  __/ |   
+ _/ |___/_.__/ \__,_|_|_|\__,_|\___|_|   
+|__/                                     
+
+A python 'wrapper' for the Google closure compiler.
+
+Usage: [python] jsbuilder[.py] source_dir output_file_name
+
+Scans the source directory (and subdirectories) for all *.js files,
+and runs the closure compiler on them
+
+Installation
+---
+Unpack and put in the same directory as your (Google closure) compiler.jar
+
+
